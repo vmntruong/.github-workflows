@@ -9,5 +9,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - runs: npm install -g bats
-      - runs: bats -v
+      - run: npm install -g bats
+      - run: bats -v
